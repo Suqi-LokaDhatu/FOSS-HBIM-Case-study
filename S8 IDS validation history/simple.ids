@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ids:ids xmlns:ids="http://standards.buildingsmart.org/IDS"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ids:specifications>
+    <ids:specification name="Check Project Name">
+      <ids:applicability>
+        <ids:entity name="IfcProject"/>
+      </ids:applicability>
+      <ids:requirements>
+        <ids:property>
+          <ids:propertySet>
+            <ids:simpleValue>Pset_ProjectCommon</ids:simpleValue>
+          </ids:propertySet>
+          <ids:baseName>
+            <ids:simpleValue>Name</ids:simpleValue>
+          </ids:baseName>
+          <ids:cardinality>required</ids:cardinality>
+        </ids:property>
+      </ids:requirements>
+    </ids:specification>
+  </ids:specifications>
+</ids:ids>
+
